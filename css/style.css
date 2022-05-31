@@ -1,0 +1,89 @@
+
+
+body {
+  text-align: center;
+  background: #56648f;
+  background: linear-gradient(#56648f, white);
+  background: url("/img/world-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin: none;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+
+.card {
+  background: #005A9C;
+  background: linear-gradient(0deg, RGBa(0, 35, 70, 75%), RGBa(0, 85, 149, 75%));
+  margin: 20px;
+  border: none;
+  box-shadow: 1px 1px 5px #171717;
+  border-radius: 25px;
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+
+h1{
+  margin-top: 140px;
+  color: #ffffff;
+  font-size: 4.5rem;
+  text-shadow: 1px 0px 1px #949494, 0px 1px 2px #eeeeee, 2px 1px 2px #949494,   1px 3px 2px #eeeeee, 2px 3px 2px #949494, 1px 3px 2px #eeeeee, 2px 2px 2px    #949494, 1px 3px 2px #eeeeee, 3px 3px 2px #949494, 2px 3px 2px #eeeeee;
+  
+}
+
+h2 {
+  color: white;
+  font-size: 3rem;
+}
+
+span {
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+.input {
+  margin: 20px auto;
+  background-color: RGBa(230, 230, 230, 60%);
+  border: none;
+  box-shadow: inset 1px 1px 5px #575757;
+  height: 40px;
+  font-size: 1.3rem;
+}
+
+.input:focus {
+  outline: none;
+  background-color: RGBa(230, 230, 230, 80%);
+  
+}
+
+.button {
+  color: white;
+  font-size: 2rem;
+  margin: 20px auto;
+  width: 250px;
+  height: 80px;
+  box-shadow: 1px 1px 5px #171717;
+  background: radial-gradient(circle at left, #002244, #005A9C);
+  border-radius: 25px;
+}
